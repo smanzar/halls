@@ -1,0 +1,17 @@
+.purejscarousel {
+  overflow: hidden;
+}
+.purejscarousel-slides-container{display: flex;height: 100%;}
+.purejscarousel-list:before,
+.purejscarousel-list:after {
+  content: "";
+  display: table;
+}
+
+.purejscarousel-list:after {
+  clear: both;
+}
+
+.purejscarousel-slide {
+  width: 100%;
+}

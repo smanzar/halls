@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/font/stylesheet.css">
+    <link rel="stylesheet" href="./css/purejscarousel.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="topbar">
+            <div class="text-center">
+                <p>Get upto <strong> Flat 20% </strong>on your first booking!</p>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="navbar">
+                <h1 class="navbar-brand"><a href="./index.html"><img src="./images/logo.png" alt="logo"></a></h1>
+                <button class="hamburger" onclick="myFunction('navbar-collapse')">
+                    <span class="hamburger__line hamburger__line--top"></span>
+                    <span class="hamburger__line hamburger__line--center"></span>
+                    <span class="hamburger__line hamburger__line--bottom"></span>
+                </button>
+                <ul class="navbar-nav">
+                    <li><a href="javascript:void(0);">Corporate</a></li>
+                    <li><a href="javascript:void(0);">Party</a></li>
+                    <li><a href="javascript:void(0);">Wedding</a></li>
+                    <li><a href="javascript:void(0);">Browse</a></li>
+                    <li><a href="javascript:void(0);">Blogs</a></li>
+                    <li><a href="javascript:void(0);" class="btn btn-outline-dark">Log in</a></li>
+                    <li><a href="javascript:void(0);"><img src="./images/search.png" alt="search"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="blogContainer pg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    <ul class="tags">
+                        <li><a href="javascript:void(0);">Best wedding venues</a></li>
+                        <li><a href="javascript:void(0);">Wedding Reception</a></li>
+                        <li><a href="javascript:void(0);">Best banquet halls</a></li>
+                        <li><a href="javascript:void(0);">Marriage Halls</a></li>
+                    </ul>
+                    <div class="hallND">
+                        <h2>Bella Vista Banquet</h2>
+                        <ul class="hallPoints">
+                            <li>
+                                <div class="rating"><i class="fa fa-map-marker"></i></div>
+                                <p>Plot No-C-79, 80 Block, Gulistan-e-Jouhar, Karachi....</p>
+                            </li>
+                            <li>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+                                <p><strong>4.2</strong> (783)</p>
+                            </li>
+                            <li>
+                                <div class="rating"><i class="fa fa-heart-o"></i></div>
+                                <p>Add to wish list</p>
+                            </li>
+                        </ul>
+                        <div class="singleHall">
+                            <div class="hallImg"><img src="./images/banner1.png" alt="banner"></div>
+                            <div class="hallImg"><img src="./images/banner1.png" alt="banner"></div>
+                            <div class="hallImg"><img src="./images/banner1.png" alt="banner"></div>
+                        </div>
+                    </div>
+                    <div class="accordionWrapper">
+                        <div class="accordionItem open">
+                            <div class="accordionItemHeading">
+                                <h2>
+                                    <i class="fa fa-list-ul"></i>
+                                    Description
+                                </h2>
+                                <i class="fa fa-angle-up"></i>
+                            </div>
+                            <div class="accordionItemContent">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="block">
+                                            <li>
+                                                <div class="justified-between">
+                                                    <p class="icons"><i class="icon"><img src="./images/capacity.png" alt="icon"></i><strong>600-650</strong></p>
+                                                    <p class="icons"><i class="icon"><img src="./images/per-head.png" alt="icon"></i> <strong>Rs 599/head</strong></p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p class="icons">
+                                                    <i class="icon"></i>
+                                                    Monday - Sunday <br>
+                                                    11:00 am - 11:00 pm
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="icons">
+                                                    <i class="icon"></i>
+                                                    03-111-227-007
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="icons">
+                                                    <i class="icon"></i>
+                                                    Info@venuehub.pk
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p class="icons">
+                                                    <i class="icon"></i>
+                                                    http://www.diamond.com.pk/
+                                                </p>
+                                            </li>
+                                        </ul>
+                                        <iframe></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b-similar-venues-link">
+                            <span class="b-similar-venues-link__info">
+                                Like this venue? See also:
+                            </span>
+                            <a class="btn btn-find">Similar venues
+                                <i class="fa fa-arrow-down"></i>
+                            </a>
+                        </div>
+                        <div class="accordionItem open">
+                            <div class="accordionItemHeading">
+                                <h2>
+                                    <i class="fa fa-users"></i>
+                                    Capacity
+                                </h2>
+                                <i class="fa fa-angle-up"></i>
+                            </div>
+                            <div class="accordionItemContent">
+                                <ul class="inline">
+                                    <li><img src="./images/standing.png" alt="icon"><p><strong>16</strong>Standing</p></li>
+                                    <li><img src="./images/seat.png" alt="icon"><p><strong>16</strong>Seated</p></li>
+                                    <li><img src="./images/classroom.png" alt="icon"><p><strong>16</strong>Classroom</p></li>
+                                    <li><img src="./images/theater.png" alt="icon"><p><strong>16</strong>Theater</p></li>
+                                    <li><img src="./images/banquet.png" alt="icon"><p><strong>16</strong>Banquet</p></li>
+                                    <li><img src="./images/conference.png" alt="icon"><p><strong>16</strong>Conference</p></li>
+                                    <li><img src="./images/ushape.png" alt="icon"><p><strong>16</strong>u Shape</p></li>
+                                    <li><img src="./images/area.png" alt="icon"><p><strong>16</strong>Floor area</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordionItem open">
+                            <div class="accordionItemHeading">
+                                <h2>
+                                    <i class="fa fa-check-circle"></i>
+                                    Detailed information
+                                </h2>
+                                <i class="fa fa-angle-up"></i>
+                            </div>
+                            <div class="accordionItemContent">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="m-service-list">
+                                            <h6>
+                                                <i class="fa fa-cutlery"></i>
+                                                Food and drinks
+                                            </h6>
+                                            <ul>
+                                                <li class="not-available">
+                                                Catering via venue
+                                                </li>
+                                                <li class="not-available">
+                                                Own food allowed
+                                                </li>
+                                                <li class="not-available">
+                                                Alcohol license
+                                                </li>
+                                                <li class="not-available">
+                                                Own beverages allowed
+                                                </li>
+                                                <li>
+                                                <i class="fa fa-check"></i>
+                                                Meeting catering
+                                                </li>
+                                                <li class="not-available">
+                                                Dinnerware
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="m-service-list">
+                                            <h6>
+                                                <i class="fa fa-wrench m-service-list-title-icon"></i>
+                                                Technology
+                                                </h6>
+                                            <ul>
+                                                <li>
+                                                <i class="fa fa-check m-service-list-available"></i>
+                                                Wi-Fi
+                                                </li>
+                                                <li>
+                                                <i class="fa fa-check m-service-list-available"></i>
+                                                Projector
+                                                </li>
+                                                <li class="not-available">
+                                                TV / Screen
+                                                </li>
+                                                <li class="not-available">
+                                                Professional sound system
+                                                </li>
+                                                <li class="not-available">
+                                                Basic sound system
+                                                </li>
+                                                <li class="not-available">
+                                                Professional lighting system
+                                                </li>
+                                                <li class="not-available">
+                                                Game console
+                                                </li>
+                                                <li class="not-available">
+                                                CD / DVD player
+                                                </li>
+                                                <li class="not-available">
+                                                Microphone
+                                                </li>
+                                                <li class="not-available">
+                                                Video conferencing equipment
+                                                </li>
+                                                <li class="not-available">
+                                                Printer
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="m-service-list">
+                                            <h6>
+                                            <i class="fa fa-search m-service-list-title-icon"></i>
+                                            Venue includes
+                                            </h6>
+                                            <ul>
+                                                <li class="not-available">
+                                                Penthouse
+                                                </li>
+                                                <li class="not-available">
+                                                Terrace
+                                                </li>
+                                                <li class="not-available">
+                                                Swimming pool
+                                                </li>
+                                                <li class="not-available">
+                                                Stage
+                                                </li>
+                                                <li class="not-available">
+                                                Sauna
+                                                </li>
+                                                <li class="not-available">
+                                                Accommodation
+                                                </li>
+                                                <li class="not-available">
+                                                Garden
+                                                </li>
+                                                <li class="not-available">
+                                                Hot tub / Whirlpool
+                                                </li>
+                                                <li class="not-available">
+                                                Dance floor
+                                                </li>
+                                                <li class="not-available">
+                                                Framework agreement with the State Trading Centre
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="m-service-list">
+                                            <h6>
+                                            <i class="fa fa-building-o m-service-list-title-icon"></i>
+                                            Equipment
+                                            </h6>
+                                            <ul>
+                                                <li class="not-available">
+                                                Guests can use kitchen
+                                                </li>
+                                                <li>
+                                                <i class="fa fa-check m-service-list-available"></i>
+                                                Whiteboard / Flip chart
+                                                </li>
+                                                <li class="not-available">
+                                                Disco ball :)
+                                                </li>
+                                                <li class="not-available">
+                                                Piano
+                                                </li>
+                                                <li class="not-available">
+                                                Towels
+                                                </li>
+                                                <li class="not-available">
+                                                Note-taking material
+                                                </li>
+                                                <li class="not-available">
+                                                Loud music OK
+                                                </li>
+                                                <li class="not-available">
+                                                Accessible
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="m-service-list">
+                                            <h6>
+                                            <i class="fa fa-tags m-service-list-title-icon"></i>
+                                            Event types
+                                            </h6>
+                                            <ul>
+                                                <li class="not-available">
+                                                Party
+                                                </li>
+                                                <li class="not-available">
+                                                Wedding
+                                                </li>
+                                                <li class="not-available">
+                                                Spa / Wellness / Sauna
+                                                </li>
+                                                <li class="not-available">
+                                                Dinner / Lunch
+                                                </li>
+                                                <li>
+                                                <i class="fa fa-check m-service-list-available"></i>
+                                                Meeting
+                                                </li>
+                                                <li class="not-available">
+                                                Conference
+                                                </li>
+                                                <li class="not-available">
+                                                Fair / Exhibition
+                                                </li>
+                                                <li class="not-available">
+                                                Performance / Show
+                                                </li>
+                                                <li class="not-available">
+                                                Recreation
+                                                </li>
+                                                <li class="not-available">
+                                                Cabin trip / Retreat
+                                                </li>
+                                                <li class="not-available">
+                                                Experience / Activity
+                                                </li>
+                                                <li class="not-available">
+                                                Christmas Party
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordionItem open">
+                            <div class="accordionItemHeading">
+                                <h2>
+                                    <i class="fa fa-dollar"></i>
+                                    Pricing and rules
+                                </h2>
+                                <i class="fa fa-angle-up"></i>
+                            </div>
+                            <div class="accordionItemContent">
+                                <ul class="pricing">
+                                    <li class="quite"><p><strong>-</strong>Price / person fr.</p></li>
+                                    <li><p><strong>27 €</strong>Price / hour fr.</p></li>
+                                    <li><p><strong>27 €</strong>Daily rent fr.</p></li>
+                                    <li><p><strong>27 €</strong>Minimum spend fr.</p></li>
+                                    <li class="quite"><p><strong>-</strong>Reservation fee</p></li>
+                                    <li class="quite"><p><strong>-</strong>Cleaning fee</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="accordionItem open">
+                            <div class="accordionItemHeading">
+                                <h2>
+                                    <i class="fa fa-star"></i>
+                                    Reviews <strong>(18)</strong>
+                                </h2>
+                                <i class="fa fa-angle-up"></i>
+                            </div>
+                            <div class="accordionItemContent">
+                                <ul class="reviews">
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <p class="quote">
+                                                    Thank you so much for everything! A perfect celebration. Great service. The attention is super personalized. The girl has a lot of patience and dedication. We took a midday buffet pack and the table was beautiful just like on the web and better. The food is highly recommended, homemade and abundant quantity. SATISFIED everyone!
+                                                </p>
+                                                <p><strong>Miriam Aman</strong></p>
+                                                <p>March 16, 2020</p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <p><i class="fa fa-star"></i><strong>5/5</strong> (0)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col-md-8">
+                                                <p class="quote">
+                                                    Thank you so much for everything! A perfect celebration. Great service. The attention is super personalized. The girl has a lot of patience and dedication. We took a midday buffet pack and the table was beautiful just like on the web and better. The food is highly recommended, homemade and abundant quantity. SATISFIED everyone!
+                                                </p>
+                                                <p><strong>Miriam Aman</strong></p>
+                                                <p>March 16, 2020</p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <p><i class="fa fa-star"></i><strong>5/5</strong> (0)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-find">Write a review</button>
+                            </div>
+                        </div>
+                        <div class="accordionItem open">
+                            <div class="accordionItemHeading">
+                                <h2>
+                                    <i class="fa fa-home"></i>
+                                   Similar Venues
+                                </h2>
+                                <i class="fa fa-angle-up"></i>
+                            </div>
+                            <div class="accordionItemContent">
+                                <div class="row simHall">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="hall">
+                                            <div class="hallImg">
+                                                <img src="./images/blueMoon.png" alt="Hall">
+                                            </div>
+                                            <div class="hallDesc">
+                                                <div class="justified-between">
+                                                    <h4>Blue Moon Banquet</h4>
+                                                    <p class="icons">
+                                                        <i class="icon"><img src="./images/rating.png" alt="icon"></i>
+                                                        <strong>4.2 </strong> (783)
+                                                    </p>
+                                                </div>
+                                                <p>
+                                                    Plot # 1, Block 7/8, Banglo Town, Main shahrah e fai...
+                                                </p>
+                                                <div class="justified-between">
+                                                    <p class="icons"><i class="icon"><img src="./images/capacity.png" alt="icon"></i><strong>600-650</strong></p>
+                                                    <p class="icons"><i class="icon"><img src="./images/per-head.png" alt="icon"></i> <strong>Rs 599/head</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="hall">
+                                            <div class="hallImg">
+                                                <img src="./images/blueMoon.png" alt="Hall">
+                                            </div>
+                                            <div class="hallDesc">
+                                                <div class="justified-between">
+                                                    <h4>Blue Moon Banquet</h4>
+                                                    <p class="icons">
+                                                        <i class="icon"><img src="./images/rating.png" alt="icon"></i>
+                                                        <strong>4.2 </strong> (783)
+                                                    </p>
+                                                </div>
+                                                <p>
+                                                    Plot # 1, Block 7/8, Banglo Town, Main shahrah e fai...
+                                                </p>
+                                                <div class="justified-between">
+                                                    <p class="icons"><i class="icon"><img src="./images/capacity.png" alt="icon"></i><strong>600-650</strong></p>
+                                                    <p class="icons"><i class="icon"><img src="./images/per-head.png" alt="icon"></i> <strong>Rs 599/head</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="hall">
+                                            <div class="hallImg">
+                                                <img src="./images/blueMoon.png" alt="Hall">
+                                            </div>
+                                            <div class="hallDesc">
+                                                <div class="justified-between">
+                                                    <h4>Blue Moon Banquet</h4>
+                                                    <p class="icons">
+                                                        <i class="icon"><img src="./images/rating.png" alt="icon"></i>
+                                                        <strong>4.2 </strong> (783)
+                                                    </p>
+                                                </div>
+                                                <p>
+                                                    Plot # 1, Block 7/8, Banglo Town, Main shahrah e fai...
+                                                </p>
+                                                <div class="justified-between">
+                                                    <p class="icons"><i class="icon"><img src="./images/capacity.png" alt="icon"></i><strong>600-650</strong></p>
+                                                    <p class="icons"><i class="icon"><img src="./images/per-head.png" alt="icon"></i> <strong>Rs 599/head</strong></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 d-block d-md-none">
+                    <div class="availibity">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Date">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <div class="checkbox">
+                                            <input type="checkbox" id="flexible">
+                                            <label for="flexible">Date is flexible</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control">
+                                            Could I have a proposal for the following event:
+                                            Number of guests:
+                                            Time:
+                                            Budget:
+                                            Description:
+                                            Thanks!
+                                        </textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <button class="btn btn-find btn-block">
+                                            <img src="./images/mail.png" alt="mail">
+                                            Send Inquiry
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <div class="step">
+                                            <ul>
+                                                <li>
+                                                    <i class="icon"><img src="./images/response.png" alt=""></i>
+                                                    <p><strong>Receive a quick response via email</strong>Venue responds typically within a workday</p>
+                                                </li>
+                                                <li>
+                                                    <i class="icon"><img src="./images/confirm.png" alt=""></i>
+                                                    <p><strong>Confirm booking or continue discussion</strong>Negotiate details directly with the venue</p>
+                                                </li>
+                                                <li>
+                                                    <i class="icon"><img src="./images/charges.png" alt=""></i>
+                                                    <p><strong>hallspk doesn’t charge you any fees</strong>Pay directly to the venue – no added costs</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="singleMenu">
+                <ul class="inline">
+                    <li><a href="javascript:void(0);">Home</a></li>
+                    <li><a href="javascript:void(0);">Contact</a></li>
+                    <li><a href="javascript:void(0);">Privacy Policy</a></li>
+                    <li><a href="javascript:void(0);">Blog</a></li>
+                    <li><a href="javascript:void(0);">About Us</a></li>
+                    <li><a href="javascript:void(0);">Login</a></li>
+                </ul>
+                <ul class="inline social">
+                    <li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="javascript:void(0);"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="text-center">
+                <p class="cpr">© 2020 Hallspk. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+<script src="./script/purejscarousel.js"></script>
+<script src="./script/script.js"></script>
+<script>
+        const banner = new PureJSCarousel({
+            carousel: '.singleHall',
+            slide: '.hallImg',
+            autoplay: true,
+            autoplayDirection: 'next',
+            infinite: true,
+            autoplayDelay: 5000
+        });
+    </script>
+</body>
+</html>
