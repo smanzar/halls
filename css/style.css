@@ -177,6 +177,8 @@ footer p.cpr{color: #949494;font-size: 14px;margin-top: 30px;}
 .accordionItem .accordionItemHeading h2 i{color: #ff6600;margin-right: 5px;}
 .accordionItem .accordionItemHeading i{color: #ff6600;font-size: 20px;font-weight: 700;}
 .accordionItem .accordionItemContent{padding: 20px}
+.accordionItem.close .accordionItemContent{max-height: 0;padding: 0;overflow: hidden;transition: 0.5s max-height, 0.25s all ease-in;}
+.accordionItem.open .accordionItemContent{max-height: 200vh;}
 .accordionItem .accordionItemContent p{margin: 15px 0}
 .accordionItem .accordionItemContent ul.block{list-style: none;padding: 0;margin: 0;}
 .accordionItem .accordionItemContent ul.block li{border-bottom: 1px solid #eee;padding: 13px 0;}
